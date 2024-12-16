@@ -1,11 +1,11 @@
-### NewsHub - README
+# NewsHub - README
 
 Welcome to NewsHub, a comprehensive platform for delivering news in both short and detailed formats. Users can browse news summaries, explore full-length content in text or video format, and contribute their own news stories. This project is built using Python with the Django framework and features a responsive frontend designed with HTML and CSS. News content is fetched dynamically using the News API.
 
 
 ---
 
-Features
+333Features
 
 1. News in Shorts format 
 
