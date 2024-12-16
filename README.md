@@ -5,21 +5,20 @@ Welcome to NewsHub, a comprehensive platform for delivering news in both short a
 
 ---
 
-333Features
+# Features
 
-1. News in Shorts format 
+### 1. News in Shorts format 
+ Displays concise summaries of the latest news for quick consumption.
 
-Displays concise summaries of the latest news for quick consumption.
 
-
-2. Detailed News
+### 2. Detailed News
 
 Each short news provides a link to Full-text news article.
 Long video format and long text format.
 
 
 
-3. User Contributions
+### 3. User Contributions
 
 Users can upload news after creating a profile.
 Short format: A brief summary or highlight andvtextvupto 200 words
@@ -27,7 +26,7 @@ Short format: A brief summary or highlight andvtextvupto 200 words
 Long format: Detailed text or video content.
 
 
-4. Social Features
+### 4. Social Features
 
 User Profiles:
 
@@ -45,7 +44,7 @@ Users can follow each other's profiles to stay updated with their news uploads.
 
 
 
-5. Dynamic News Updates
+### 5. Dynamic News Updates
 
 Integrates with the News API to fetch and display the latest news.
 
@@ -55,9 +54,9 @@ Categorized news for better user experience (e.g., technology, sports, business)
 
 ---
 
-Technology Stack
+# Technology Stack
 
-Backend
+### Backend
 
 Language: Python
 
@@ -68,7 +67,7 @@ News API: Fetches dynamic and up-to-date news articles.
 Database: MySQL for data storage.
 Ko
 
-Frontend
+### Frontend
 
 Languages: HTML, CSS
 
@@ -78,9 +77,9 @@ Design: Responsive, user-friendly layout.
 
 ---
 
-Installation and Setup
+# Installation and Setup
 
-Prerequisites
+### Prerequisites
 
 Python 3.x
 
@@ -91,57 +90,39 @@ MySQL Database
 A News API key (available from News API).
 
 
-Steps
+### Steps
 
-1. Clone the repository:
+#### 1. Clone the repository:
 
 git clone https://github.com/your-username/news-hub.git
 cd news-hub
 
 
-2. Install dependencies:
+#### 2. Install dependencies:
 
 pip install -r requirements.txt
 
 
-3. Configure the News API and MySQL Database:
 
-NEWS_API_KEY = "your_news_api_key"
-
-Configure the MySQL database in settings.py:
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'news_hub',
-        'USER': 'your_mysql_username',
-        'PASSWORD': 'your_mysql_password',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    }
-}
-
-
-
-4. Run database migrations:
+#### 4. Run database migrations:
 
 python manage.py makemigrations
 python manage.py migrate
 
 
-5. Start the development server:
+####5. Start the development server:
 
 python manage.py runserver
 
 
-6. Access the site at http://127.0.0.1:8000.
+#### 6. Access the site at http://127.0.0.1:8000.
 
 
 
 
 ---
 
-Project Structure
+# Project Structure
 
 news-hub/
 │
@@ -152,7 +133,7 @@ news-hub/
 │   ├── static/        # CSS and other static files
 │   └── urls.py        # App URL routing
 │
-├── landing_page/          # Main Django app for news management
+├── landing_page/      # Main Django app for news management
 │   ├── models.py      # Database models (Users, News, Likes, Comments, etc.)
 │   ├── views.py       # Backend logic for views
 │   ├── templates/     # HTML templates
@@ -165,14 +146,15 @@ news-hub/
 
 ---
 
-Usage
+# Usage
 
-User Interaction
+### User Interaction
 
-1. View News: Browse the home page for short news. Click "Read More" for detailed content.
+#### 1. View News   
 
+Browse the home page for short news. Click "Read More" for detailed content.
 
-2. User Profiles:
+#### 2. User Profiles:
 
 Create a profile to upload news.
 
@@ -180,23 +162,27 @@ Follow other users to see their updates.
 
 
 
-3. Engage with News:
+#### 3. Engage with News:
 
 Like, comment, and share news posts.
 
 
 
-4. Upload News: Submit news stories via the upload page. Choose short or long format.
+#### 4. Upload News: 
+
+Submit news stories via the upload page. Choose short or long format.
 
 
-5. Search News: Use the search bar to find news by keywords or categories.
+#### 5. Search News: 
+
+Use the search bar to find news by keywords or categories.
 
 
 
 
 ---
 
-Future Enhancements
+# Future Enhancements
 
 Add analytics to show popular news and trending topics.
 
@@ -209,14 +195,12 @@ Add support for multiple languages.
 Add support for saving news for future use 
 
 Add support for making notes for student 
- 
-Add 
 
 
 
 ---
 
-Acknowledgments
+# Acknowledgments
 
 News API for providing real-time news data.
 
